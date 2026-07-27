@@ -61,6 +61,7 @@ console.log(+true);
 console.log(+"");
 
 
+// not to write this format this is not goog for MNC or Company
 
 let num1, num2, num3
 
@@ -84,3 +85,27 @@ const b = ++a;
 console.log(`a:${a}, b:${b}`);
 // Expected output: "a:4, b:4"
 //* not cleard
+
+// console.log(2 > 1);
+// console.log( 2 >= 1);
+// console.log( 2 < 1 );
+// console.log( 2 == 1);
+// console.log(2 != 1);
+
+// // comparesion and equality check avoid this type of conversion
+// console.log("2" > 1);
+// console.log("02" > 1);
+
+// console.log(null > 0);
+// console.log(null == 0);
+// console.log(null >= 0);
+
+
+// console.log(undefined == 0);
+// console.log(undefined > 0);
+// console.log(undefined < 0);
+
+
+// === strict check
+
+console.log("2" === 2);
